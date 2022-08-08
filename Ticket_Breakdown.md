@@ -19,7 +19,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ##Feature Request:
 
-** Use custom Agent Id instead of database Id for report genaration**
+**Use custom Agent Id instead of database Id for report genaration**
 
 ##Task Description:
 
@@ -29,7 +29,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ## Subtasks:
 ######################################################################
 
-1. Change Database schema, migrations and relationships
+**1. Change Database schema, migrations and relationships**
 
 ## Subtask Description:
 - Add a new column in the Agents table named "custom_agent_id" which would be a unique field (system generated) and type varchar
@@ -44,7 +44,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ######################################################################
 
-2. Update the Add/Edit Agent Information Forms (Front End)
+**2. Update the Add/Edit Agent Information Forms (Front End)**
 
 ## Subtask Description:
 
@@ -55,7 +55,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ######################################################################
 
-3.  Update the Add/Edit Agent Information in the Database (Back End)
+**3.  Update the Add/Edit Agent Information in the Database (Back End)**
 
 ## Subtask Description:
 
@@ -72,7 +72,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ######################################################################
 
-4. Provide a method to auto-genarate unique Agent IDs (Back End)
+**4. Provide a method to auto-genarate unique Agent IDs (Back End)**
 
 - A method is required to generate a unique Agent ID that will be checked for validity against the databse Agent table. This method will be tied against an api which will be called via a get request.
 - Create couple of unit tests to check the validity of the method
@@ -85,7 +85,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ######################################################################
 
-5. Make relavant refactoring in the reporting module to facilicate the usage of the new agent id field
+**5. Make relavant refactoring in the reporting module to facilicate the usage of the new agent id field**
 
 ## Subtask Description:
 
