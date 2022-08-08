@@ -31,22 +31,22 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 **1. Change Database schema, migrations and relationships**
 
-## Subtask Description:
+# Subtask Description:
 - Add a new column in the Agents table named "custom_agent_id" which would be a unique field (system generated) and type varchar
 - Fix the foreign key constraints for Shifts table (and possibly in the Facilities table) and make the new column as foreign key.
 - Run migrations with some dummy data (use faker library) to test the migration and the relationships.
 
-## Estimated duration:
+# Estimated duration:
 - 1 day
 
-## Blocks:
+# Blocks:
  - Taks 4
 
 ######################################################################
 
 **2. Update the Add/Edit Agent Information Forms (Front End)**
 
-## Subtask Description:
+# Subtask Description:
 
 - The newly created custom_agent_id column should be populated with the appropriate value from the UI. All three forms should have a new field called "Agent ID", which would be dynamically populated with unique values via API calls. This form field will be non-editable.
 
@@ -57,7 +57,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 **3.  Update the Add/Edit Agent Information in the Database (Back End)**
 
-## Subtask Description:
+# Subtask Description:
 
 - Change the Add/Edit Agent Information form submission methods to facilicate the new field. 
 - Run Back End validation for the unique field.
@@ -77,7 +77,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 - A method is required to generate a unique Agent ID that will be checked for validity against the databse Agent table. This method will be tied against an api which will be called via a get request.
 - Create couple of unit tests to check the validity of the method
 
-## Estimated duration:
+# Estimated duration:
 - 0.5 day
 
 # Blocked By:
@@ -87,14 +87,14 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 **5. Make relavant refactoring in the reporting module to facilicate the usage of the new agent id field**
 
-## Subtask Description:
+# Subtask Description:
 
 - Identify the relevant methods responsible for reporting that are required to be refactored.
 - Adjust the queries (if ORM is used, change the Model definition)
 - Run unit tests
 - Test on the dev system pre-deployment (Regression test)
 
-## Estimated duration:
+# Estimated duration:
 - 2 days
 
 # Blocked By:
